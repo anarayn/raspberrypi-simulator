@@ -1,6 +1,14 @@
-import Pin
+import ./Pin
 
-class Module():
-  def __init__(self, name):
-    self.name=name
+class Module:
+  def get_name(self) -> str:
+    pass
+
+  def set_name(self,name:str):
+    pass
+
+  def pins(self,pins:[]):
+    pass
+
+  def info(self):
     pass
